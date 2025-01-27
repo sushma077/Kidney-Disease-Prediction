@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 
 curr=os.path.dirname(__file__)
-model_path=os.path.join(curr, "kidney_model_prediction.pkl")
+model_path=os.path.join(curr, "Kidney_model_prediction.pkl")
 
 with open(model_path,"rb") as f:
     classifier=pickle.load(f)
