@@ -27,7 +27,7 @@ def predict():
     if request.method=='POST':
         BloodPressure=float(request.form["BloodPressure"])
         Gravity=float(request.form["Gravity"])
-        Albumin=int(request.form["Albumin"])
+        Albumin=float(request.form["Albumin"])
         BloodSugar=float(request.form["BloodSugar"])
         RedBlood=float(request.form["RedBlood"])
         PusCellCount=float(request.form["PusCellCount"])
